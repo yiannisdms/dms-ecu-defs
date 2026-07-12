@@ -28,3 +28,10 @@ factory calibrations.
 
 > MazdaEdit-tuned NC bins are **encrypted** (entropy ~8.0) and cannot be opened at fixed offsets — only
 > stock/unencrypted reads work here.
+
+## Note: blank tables on stock ROMs
+The full NC defs include RomDrop **patch-region** tables (E85/`[Flex]`, Speed Density, Alpha-N,
+Fuel Target CL — ~22 of 117 maps). These only exist after applying the RomDrop patch; on a raw
+**stock** ROM they are `0xFF` padding and render blank (the 3D surface needs real data). This is
+expected — use the normal tables (Load Scaling, Base Timing, MAF, VVT, main fuel/spark). The full
+set is kept so patched ROMs work too.
