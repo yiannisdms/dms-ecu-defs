@@ -13,7 +13,7 @@
     "definitionName": "BMW N54 N54__INA0S",
     "paramCount": 513,
     "autoDetect": false,
-    "note": "Stock read. BMW defs carry no EPK -> after loading pick 'BMW N54 N54__INA0S' manually."
+    "note": "Stock read. BMW defs have no EPK -> pick 'BMW N54 N54__INA0S' manually."
   },
   {
     "id": "bmw-n54-ikm0s",
@@ -29,29 +29,13 @@
     "definitionName": "BMW N54 N54__IKM0S",
     "paramCount": 516,
     "autoDetect": false,
-    "note": "Stock read. Pick 'BMW N54 N54__IKM0S' after loading. Full E85/timing/load interpolation maps."
-  },
-  {
-    "id": "mazda-nc-lfh9ed",
-    "name": "Mazda MX-5 NC (MZR LF) \u2014 LFH9ED, stock",
-    "brand": "Mazda",
-    "engine": "MZR LF",
-    "dme": "SH7058",
-    "dmeId": "LFH9ED",
-    "bin": "mazda-nc-lfh9ed-stock.bin",
-    "size": 1048576,
-    "bigEndian": true,
-    "definitionFile": "181fa702a28f14.json",
-    "definitionName": "Mazda MX-5 NC LFH9ED",
-    "paramCount": 5,
-    "autoDetect": true,
-    "note": "Stock factory calibration. EPK auto-detect: just drop the bin, editor picks the def. Maps: MAF transfer fn, Load Scaling (RPM x Load), injector PW + global fuel scalars."
+    "note": "Stock read. Pick 'BMW N54 N54__IKM0S' manually."
   },
   {
     "id": "mazda-nc-l831ed",
-    "name": "Mazda MX-5 NC (MZR LF) \u2014 L831ED, stock",
+    "name": "Mazda MX-5 NC \u2014 L831ED, stock",
     "brand": "Mazda",
-    "engine": "MZR LF",
+    "engine": "1.8L L8 MZR",
     "dme": "SH7058",
     "dmeId": "L831ED",
     "bin": "mazda-nc-l831ed-stock.bin",
@@ -59,8 +43,56 @@
     "bigEndian": true,
     "definitionFile": "418546b4afead4.json",
     "definitionName": "Mazda MX-5 NC L831ED",
-    "paramCount": 5,
+    "paramCount": 507,
     "autoDetect": true,
-    "note": "Stock factory calibration, different id/load values from LFH9ED. EPK auto-detect."
+    "note": "Stock factory calibration (1.8L L8 MZR), Load Scaling 17x14. EPK auto-detect."
+  },
+  {
+    "id": "mazda-nc-lfh9ed",
+    "name": "Mazda MX-5 NC \u2014 LFH9ED, stock",
+    "brand": "Mazda",
+    "engine": "2.0L LF MZR",
+    "dme": "SH7058",
+    "dmeId": "LFH9ED",
+    "bin": "mazda-nc-lfh9ed-stock.bin",
+    "size": 1048576,
+    "bigEndian": true,
+    "definitionFile": "181fa702a28f14.json",
+    "definitionName": "Mazda MX-5 NC LFH9ED",
+    "paramCount": 507,
+    "autoDetect": true,
+    "note": "Stock factory calibration (2.0L LF MZR), Load Scaling 17x14. EPK auto-detect."
+  },
+  {
+    "id": "mazda-nc-lfh9ec",
+    "name": "Mazda MX-5 NC \u2014 LFH9EC, stock",
+    "brand": "Mazda",
+    "engine": "2.0L LF MZR",
+    "dme": "SH7058",
+    "dmeId": "LFH9EC",
+    "bin": "mazda-nc-lfh9ec-stock.bin",
+    "size": 1048576,
+    "bigEndian": true,
+    "definitionFile": "3f891b790aaff3.json",
+    "definitionName": "Mazda MX-5 NC LFH9EC",
+    "paramCount": 507,
+    "autoDetect": true,
+    "note": "Stock factory calibration (2.0L LF MZR), Load Scaling 17x14. EPK auto-detect."
+  },
+  {
+    "id": "mazda-nc-lflxec",
+    "name": "Mazda MX-5 NC \u2014 LFLXEC, stock",
+    "brand": "Mazda",
+    "engine": "2.0L LF MZR",
+    "dme": "SH7058",
+    "dmeId": "LFLXEC",
+    "bin": "mazda-nc-lflxec-stock.bin",
+    "size": 1048576,
+    "bigEndian": true,
+    "definitionFile": "83bff76ac2a8f5.json",
+    "definitionName": "Mazda MX-5 NC LFLXEC",
+    "paramCount": 532,
+    "autoDetect": true,
+    "note": "Stock factory calibration (2.0L LF MZR), Load Scaling 17x15. EPK auto-detect."
   }
 ]
