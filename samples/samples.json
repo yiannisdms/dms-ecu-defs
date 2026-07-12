@@ -1,0 +1,24 @@
+[
+  {
+    "id": "bmw-n54-ina0s",
+    "name": "BMW N54 (335i / 135i) — INA0S, stock ORI",
+    "brand": "BMW", "engine": "N54", "dme": "MSD80", "dmeId": "INA0S",
+    "bin": "bmw-n54-ina0s-original.bin",
+    "size": 2097152, "bigEndian": false,
+    "definitionFile": "00abf36f08d017.json",
+    "definitionName": "BMW N54 N54__INA0S",
+    "paramCount": 513, "autoDetect": false,
+    "note": "Stock read. BMW defs carry no EPK, so after loading the bin pick the definition 'BMW N54 N54__INA0S' manually. Same source as the definition (dmacpro91) so addresses align."
+  },
+  {
+    "id": "bmw-n54-ikm0s",
+    "name": "BMW N54 (335i / 135i) — IKM0S, stock ORI",
+    "brand": "BMW", "engine": "N54", "dme": "MSD80", "dmeId": "IKM0S",
+    "bin": "bmw-n54-ikm0s-original.bin",
+    "size": 2097152, "bigEndian": false,
+    "definitionFile": "9c16d371647a54.json",
+    "definitionName": "BMW N54 N54__IKM0S",
+    "paramCount": 516, "autoDetect": false,
+    "note": "Stock read. Pick 'BMW N54 N54__IKM0S' after loading. Has full E85/timing/load interpolation maps to play with."
+  }
+]
