@@ -1,0 +1,727 @@
+{
+  "note": "RomDrop feature patches (E85/flex-fuel, Speed Density, Alpha-N, extra spark/fuel tables). Apply with the official romdrop.exe (menu 'P | Patch Stock ROM') to a STOCK read, which generates a patched calibration; load THAT in the editor to edit the unlocked tables. Patch application is done by romdrop.exe (closed, checksum-verified via romdrop.crc) - NOT reimplemented here, to avoid corrupting an ECU. Note: patches add the CODE; the flex table VALUES start empty (0xFF) and are filled by the tuner.",
+  "source": "https://github.com/speepsio/romdrop (patches/)",
+  "patches": [
+    {
+      "romId": "L831ED",
+      "defName": "Mazda MX-5 NC L831ED",
+      "defFile": "418546b4afead4.json",
+      "patchFile": "mazda-nc-l831ed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "L831EE",
+      "defName": "Mazda MX-5 NC L831EE",
+      "defFile": "9f61c7dbd4e214.json",
+      "patchFile": "mazda-nc-l831ee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "L831EF",
+      "defName": "Mazda MX-5 NC L831EF",
+      "defFile": "2743c39e29d16a.json",
+      "patchFile": "mazda-nc-l831ef-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "L831EG",
+      "defName": "Mazda MX-5 NC L831EG",
+      "defFile": "ecb63e47431427.json",
+      "patchFile": "mazda-nc-l831eg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "L843EC",
+      "defName": "Mazda MX-5 NC L843EC",
+      "defFile": "6b465a3267b2f8.json",
+      "patchFile": "mazda-nc-l843ec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "L862ED",
+      "defName": "Mazda MX-5 NC L862ED",
+      "defFile": "547ecf700d85ca.json",
+      "patchFile": "mazda-nc-l862ed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF4WEG",
+      "defName": "Mazda MX-5 NC LF4WEG",
+      "defFile": "01d104cb17810e.json",
+      "patchFile": "mazda-nc-lf4weg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF4XED",
+      "defName": "Mazda MX-5 NC LF4XED",
+      "defFile": "29f62160992fca.json",
+      "patchFile": "mazda-nc-lf4xed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF4XEE",
+      "defName": "Mazda MX-5 NC LF4XEE",
+      "defFile": "efd8117a0339f5.json",
+      "patchFile": "mazda-nc-lf4xee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF4XEG",
+      "defName": "Mazda MX-5 NC LF4XEG",
+      "defFile": "4a604621c7202b.json",
+      "patchFile": "mazda-nc-lf4xeg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF5AEG",
+      "defName": "Mazda MX-5 NC LF5AEG",
+      "defFile": "2d699fcf95f0fa.json",
+      "patchFile": "mazda-nc-lf5aeg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF5BEG",
+      "defName": "Mazda MX-5 NC LF5BEG",
+      "defFile": "d78206737bf433.json",
+      "patchFile": "mazda-nc-lf5beg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF5CEG",
+      "defName": "Mazda MX-5 NC LF5CEG",
+      "defFile": "85bf51d5f090f7.json",
+      "patchFile": "mazda-nc-lf5ceg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF5DEG",
+      "defName": "Mazda MX-5 NC LF5DEG",
+      "defFile": "07e842606f6f5e.json",
+      "patchFile": "mazda-nc-lf5deg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF6JE0",
+      "defName": "Mazda MX-5 NC LF6JE0",
+      "defFile": "9a5320576cd3cb.json",
+      "patchFile": "mazda-nc-lf6je0-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF8HED",
+      "defName": "Mazda MX-5 NC LF8HED",
+      "defFile": "9fda976c1d2a79.json",
+      "patchFile": "mazda-nc-lf8hed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9HED",
+      "defName": "Mazda MX-5 NC LF9HED",
+      "defFile": "545b671c2ca700.json",
+      "patchFile": "mazda-nc-lf9hed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9HEE",
+      "defName": "Mazda MX-5 NC LF9HEE",
+      "defFile": "b4ce942746f321.json",
+      "patchFile": "mazda-nc-lf9hee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9JED",
+      "defName": "Mazda MX-5 NC LF9JED",
+      "defFile": "71a939ca62a2fc.json",
+      "patchFile": "mazda-nc-lf9jed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9KEC",
+      "defName": "Mazda MX-5 NC LF9KEC",
+      "defFile": "d5d53ebd951314.json",
+      "patchFile": "mazda-nc-lf9kec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9KEE",
+      "defName": "Mazda MX-5 NC LF9KEE",
+      "defFile": "bb8c88077a0dfe.json",
+      "patchFile": "mazda-nc-lf9kee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9RED",
+      "defName": "Mazda MX-5 NC LF9RED",
+      "defFile": "954e80edc4c026.json",
+      "patchFile": "mazda-nc-lf9red-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9SED",
+      "defName": "Mazda MX-5 NC LF9SED",
+      "defFile": "8bf783e1adf6ea.json",
+      "patchFile": "mazda-nc-lf9sed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9TEE",
+      "defName": "Mazda MX-5 NC LF9TEE",
+      "defFile": "e7ee59db136b49.json",
+      "patchFile": "mazda-nc-lf9tee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9VEB",
+      "defName": "Mazda MX-5 NC LF9VEB",
+      "defFile": "a9de91ff627f63.json",
+      "patchFile": "mazda-nc-lf9veb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9WEB",
+      "defName": "Mazda MX-5 NC LF9WEB",
+      "defFile": "2636d61ac6c7d1.json",
+      "patchFile": "mazda-nc-lf9web-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LF9XEB",
+      "defName": "Mazda MX-5 NC LF9XEB",
+      "defFile": "db67fea0efdcec.json",
+      "patchFile": "mazda-nc-lf9xeb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFAAEB",
+      "defName": "Mazda MX-5 NC LFAAEB",
+      "defFile": "224e26faf75e2f.json",
+      "patchFile": "mazda-nc-lfaaeb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFABEB",
+      "defName": "Mazda MX-5 NC LFABEB",
+      "defFile": "f7c6fa9e3daac1.json",
+      "patchFile": "mazda-nc-lfabeb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFACEB",
+      "defName": "Mazda MX-5 NC LFACEB",
+      "defFile": "9c7235c701f347.json",
+      "patchFile": "mazda-nc-lfaceb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFAKEB",
+      "defName": "Mazda MX-5 NC LFAKEB",
+      "defFile": "a8e3c1023ac8a6.json",
+      "patchFile": "mazda-nc-lfakeb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFDJEA",
+      "defName": "Mazda MX-5 NC LFDJEA",
+      "defFile": "a3c638c0831141.json",
+      "patchFile": "mazda-nc-lfdjea-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFDKEB",
+      "defName": "Mazda MX-5 NC LFDKEB",
+      "defFile": "569700620fc3e8.json",
+      "patchFile": "mazda-nc-lfdkeb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFDLEC",
+      "defName": "Mazda MX-5 NC LFDLEC",
+      "defFile": "7e25a9842332a7.json",
+      "patchFile": "mazda-nc-lfdlec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFDMEA",
+      "defName": "Mazda MX-5 NC LFDMEA",
+      "defFile": "1f14a9c7f9ccfe.json",
+      "patchFile": "mazda-nc-lfdmea-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFDNEB",
+      "defName": "Mazda MX-5 NC LFDNEB",
+      "defFile": "a4439f98117b74.json",
+      "patchFile": "mazda-nc-lfdneb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFDPEC",
+      "defName": "Mazda MX-5 NC LFDPEC",
+      "defFile": "5d9c53c9cfe315.json",
+      "patchFile": "mazda-nc-lfdpec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFFCED",
+      "defName": "Mazda MX-5 NC LFFCED",
+      "defFile": "4628360ef317b0.json",
+      "patchFile": "mazda-nc-lffced-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFFDED",
+      "defName": "Mazda MX-5 NC LFFDED",
+      "defFile": "de5c7e4a8af7de.json",
+      "patchFile": "mazda-nc-lffded-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFFEEE",
+      "defName": "Mazda MX-5 NC LFFEEE",
+      "defFile": "8075d9a92a6e31.json",
+      "patchFile": "mazda-nc-lffeee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG1EK",
+      "defName": "Mazda MX-5 NC LFG1EK",
+      "defFile": "262d645a14df92.json",
+      "patchFile": "mazda-nc-lfg1ek-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG1ER",
+      "defName": "Mazda MX-5 NC LFG1ER",
+      "defFile": "cfd76d2784c7eb.json",
+      "patchFile": "mazda-nc-lfg1er-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG2EE",
+      "defName": "Mazda MX-5 NC LFG2EE",
+      "defFile": "f7e566f0dc425c.json",
+      "patchFile": "mazda-nc-lfg2ee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG2EF",
+      "defName": "Mazda MX-5 NC LFG2EF",
+      "defFile": "3831d2b6bc8768.json",
+      "patchFile": "mazda-nc-lfg2ef-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG2EG",
+      "defName": "Mazda MX-5 NC LFG2EG",
+      "defFile": "735480d3afd970.json",
+      "patchFile": "mazda-nc-lfg2eg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG2EJ",
+      "defName": "Mazda MX-5 NC LFG2EJ",
+      "defFile": "cbd6328aa68f92.json",
+      "patchFile": "mazda-nc-lfg2ej-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG2EL",
+      "defName": "Mazda MX-5 NC LFG2EL",
+      "defFile": "ff63601eddd589.json",
+      "patchFile": "mazda-nc-lfg2el-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG2EM",
+      "defName": "Mazda MX-5 NC LFG2EM",
+      "defFile": "69fe5c9fba5318.json",
+      "patchFile": "mazda-nc-lfg2em-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG2EP",
+      "defName": "Mazda MX-5 NC LFG2EP",
+      "defFile": "b53b68ee7eedad.json",
+      "patchFile": "mazda-nc-lfg2ep-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG3EE",
+      "defName": "Mazda MX-5 NC LFG3EE",
+      "defFile": "19078d90b7aa74.json",
+      "patchFile": "mazda-nc-lfg3ee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG3EF",
+      "defName": "Mazda MX-5 NC LFG3EF",
+      "defFile": "65fdd9364e517e.json",
+      "patchFile": "mazda-nc-lfg3ef-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG3EG",
+      "defName": "Mazda MX-5 NC LFG3EG",
+      "defFile": "0f528b1631275a.json",
+      "patchFile": "mazda-nc-lfg3eg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG3EK",
+      "defName": "Mazda MX-5 NC LFG3EK",
+      "defFile": "616d0f598c8b4e.json",
+      "patchFile": "mazda-nc-lfg3ek-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG3EN",
+      "defName": "Mazda MX-5 NC LFG3EN",
+      "defFile": "8c788b28b2f2a5.json",
+      "patchFile": "mazda-nc-lfg3en-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG7ED",
+      "defName": "Mazda MX-5 NC LFG7ED",
+      "defFile": "df894475e90018.json",
+      "patchFile": "mazda-nc-lfg7ed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG7EG",
+      "defName": "Mazda MX-5 NC LFG7EG",
+      "defFile": "29dc8af3db8f89.json",
+      "patchFile": "mazda-nc-lfg7eg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG8EF",
+      "defName": "Mazda MX-5 NC LFG8EF",
+      "defFile": "9a3a73b7362f29.json",
+      "patchFile": "mazda-nc-lfg8ef-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG8EG",
+      "defName": "Mazda MX-5 NC LFG8EG",
+      "defFile": "1c9166cc21f656.json",
+      "patchFile": "mazda-nc-lfg8eg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFG9EH",
+      "defName": "Mazda MX-5 NC LFG9EH",
+      "defFile": "5bfa9831c99539.json",
+      "patchFile": "mazda-nc-lfg9eh-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGJED",
+      "defName": "Mazda MX-5 NC LFGJED",
+      "defFile": "ea40271f5e5e92.json",
+      "patchFile": "mazda-nc-lfgjed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGKEC",
+      "defName": "Mazda MX-5 NC LFGKEC",
+      "defFile": "9167f6cbda2c6f.json",
+      "patchFile": "mazda-nc-lfgkec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGKED",
+      "defName": "Mazda MX-5 NC LFGKED",
+      "defFile": "8a78d694895001.json",
+      "patchFile": "mazda-nc-lfgked-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGLEF",
+      "defName": "Mazda MX-5 NC LFGLEF",
+      "defFile": "eca15fc0f03821.json",
+      "patchFile": "mazda-nc-lfglef-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGMEC",
+      "defName": "Mazda MX-5 NC LFGMEC",
+      "defFile": "3d68b9400c92c2.json",
+      "patchFile": "mazda-nc-lfgmec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGMEE",
+      "defName": "Mazda MX-5 NC LFGMEE",
+      "defFile": "2589b6a32d24f3.json",
+      "patchFile": "mazda-nc-lfgmee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGNEC",
+      "defName": "Mazda MX-5 NC LFGNEC",
+      "defFile": "c51f1b5a3abbae.json",
+      "patchFile": "mazda-nc-lfgnec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGNEE",
+      "defName": "Mazda MX-5 NC LFGNEE",
+      "defFile": "38b7af18a70f62.json",
+      "patchFile": "mazda-nc-lfgnee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFGPEF",
+      "defName": "Mazda MX-5 NC LFGPEF",
+      "defFile": "86f1e46e89782d.json",
+      "patchFile": "mazda-nc-lfgpef-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFH9EC",
+      "defName": "Mazda MX-5 NC LFH9EC",
+      "defFile": "3f891b790aaff3.json",
+      "patchFile": "mazda-nc-lfh9ec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFH9ED",
+      "defName": "Mazda MX-5 NC LFH9ED",
+      "defFile": "181fa702a28f14.json",
+      "patchFile": "mazda-nc-lfh9ed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFH9EE",
+      "defName": "Mazda MX-5 NC LFH9EE",
+      "defFile": "410ebe317d5db0.json",
+      "patchFile": "mazda-nc-lfh9ee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFH9EF",
+      "defName": "Mazda MX-5 NC LFH9EF",
+      "defFile": "05c36ece7c88e8.json",
+      "patchFile": "mazda-nc-lfh9ef-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFJ1EC",
+      "defName": "Mazda MX-5 NC LFJ1EC",
+      "defFile": "99853301279dae.json",
+      "patchFile": "mazda-nc-lfj1ec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFJ1EE",
+      "defName": "Mazda MX-5 NC LFJ1EE",
+      "defFile": "e52bc27bc5fb9e.json",
+      "patchFile": "mazda-nc-lfj1ee-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFJ1EF",
+      "defName": "Mazda MX-5 NC LFJ1EF",
+      "defFile": "1a5b98f176c610.json",
+      "patchFile": "mazda-nc-lfj1ef-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFJ5EG",
+      "defName": "Mazda MX-5 NC LFJ5EG",
+      "defFile": "a4d93655673c2a.json",
+      "patchFile": "mazda-nc-lfj5eg-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLEEC",
+      "defName": "Mazda MX-5 NC LFLEEC",
+      "defFile": "7c380edd4f1050.json",
+      "patchFile": "mazda-nc-lfleec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLGEC",
+      "defName": "Mazda MX-5 NC LFLGEC",
+      "defFile": "a665a43344a500.json",
+      "patchFile": "mazda-nc-lflgec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLMEA",
+      "defName": "Mazda MX-5 NC LFLMEA",
+      "defFile": "470967555eb856.json",
+      "patchFile": "mazda-nc-lflmea-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLMEC",
+      "defName": "Mazda MX-5 NC LFLMEC",
+      "defFile": "875302be6caaf3.json",
+      "patchFile": "mazda-nc-lflmec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLMED",
+      "defName": "Mazda MX-5 NC LFLMED",
+      "defFile": "1c428112832db3.json",
+      "patchFile": "mazda-nc-lflmed-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLNEC",
+      "defName": "Mazda MX-5 NC LFLNEC",
+      "defFile": "9b7f1b544f3e13.json",
+      "patchFile": "mazda-nc-lflnec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLPE0",
+      "defName": "Mazda MX-5 NC LFLPE0",
+      "defFile": "66db877210f1dd.json",
+      "patchFile": "mazda-nc-lflpe0-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLPEA",
+      "defName": "Mazda MX-5 NC LFLPEA",
+      "defFile": "b4983e58f278d7.json",
+      "patchFile": "mazda-nc-lflpea-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLPEB",
+      "defName": "Mazda MX-5 NC LFLPEB",
+      "defFile": "af2f27639032ac.json",
+      "patchFile": "mazda-nc-lflpeb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLPEC",
+      "defName": "Mazda MX-5 NC LFLPEC",
+      "defFile": "ab1d56b09a9a6d.json",
+      "patchFile": "mazda-nc-lflpec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLPED",
+      "defName": "Mazda MX-5 NC LFLPED",
+      "defFile": "4b1101abc7e242.json",
+      "patchFile": "mazda-nc-lflped-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLREA",
+      "defName": "Mazda MX-5 NC LFLREA",
+      "defFile": "04bf713fda2eba.json",
+      "patchFile": "mazda-nc-lflrea-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLVEB",
+      "defName": "Mazda MX-5 NC LFLVEB",
+      "defFile": "cf23f55685e120.json",
+      "patchFile": "mazda-nc-lflveb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLWEB",
+      "defName": "Mazda MX-5 NC LFLWEB",
+      "defFile": "5e619950c74fe1.json",
+      "patchFile": "mazda-nc-lflweb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLXE0",
+      "defName": "Mazda MX-5 NC LFLXE0",
+      "defFile": "2c62649de730a3.json",
+      "patchFile": "mazda-nc-lflxe0-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFLXEC",
+      "defName": "Mazda MX-5 NC LFLXEC",
+      "defFile": "83bff76ac2a8f5.json",
+      "patchFile": "mazda-nc-lflxec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFMAE0",
+      "defName": "Mazda MX-5 NC LFMAE0",
+      "defFile": "643a52984dcf03.json",
+      "patchFile": "mazda-nc-lfmae0-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFMAEB",
+      "defName": "Mazda MX-5 NC LFMAEB",
+      "defFile": "b87149d9d8a509.json",
+      "patchFile": "mazda-nc-lfmaeb-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFMAEC",
+      "defName": "Mazda MX-5 NC LFMAEC",
+      "defFile": "aa14d0571d3314.json",
+      "patchFile": "mazda-nc-lfmaec-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFMSEA",
+      "defName": "Mazda MX-5 NC LFMSEA",
+      "defFile": "75ed2de1c40837.json",
+      "patchFile": "mazda-nc-lfmsea-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFN3ER",
+      "defName": "Mazda MX-5 NC LFN3ER",
+      "defFile": "01be2df75a8f0d.json",
+      "patchFile": "mazda-nc-lfn3er-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFN4EK",
+      "defName": "Mazda MX-5 NC LFN4EK",
+      "defFile": "0777c4a2922b6c.json",
+      "patchFile": "mazda-nc-lfn4ek-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFN4EP",
+      "defName": "Mazda MX-5 NC LFN4EP",
+      "defFile": "7471a732c2dfa2.json",
+      "patchFile": "mazda-nc-lfn4ep-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFN5EN",
+      "defName": "Mazda MX-5 NC LFN5EN",
+      "defFile": "9d6a766034e672.json",
+      "patchFile": "mazda-nc-lfn5en-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFZZE0",
+      "defName": "Mazda MX-5 NC LFZZE0",
+      "defFile": "e5df669759cb3a.json",
+      "patchFile": "mazda-nc-lfzze0-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LFZZEA",
+      "defName": "Mazda MX-5 NC LFZZEA",
+      "defFile": "9d391d20436b93.json",
+      "patchFile": "mazda-nc-lfzzea-romdrop.patch",
+      "size": 1048576
+    },
+    {
+      "romId": "LSYAEA",
+      "defName": "Mazda MX-5 NC LSYAEA",
+      "defFile": "b9ca245247fedc.json",
+      "patchFile": "mazda-nc-lsyaea-romdrop.patch",
+      "size": 1048576
+    }
+  ]
+}
