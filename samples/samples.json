@@ -94,5 +94,37 @@
     "paramCount": 532,
     "autoDetect": true,
     "note": "Stock factory calibration (2.0L LF MZR), Load Scaling 17x15. EPK auto-detect."
+  },
+  {
+    "id": "subaru-a2wc400h",
+    "name": "Subaru Forester XT \u2014 A2WC400H, stock",
+    "brand": "Subaru",
+    "engine": "EJ255",
+    "dme": "SH7058",
+    "dmeId": "A2WC400H",
+    "bin": "subaru-a2wc400h-stock.bin",
+    "size": 524288,
+    "bigEndian": false,
+    "definitionFile": "26dbbb00c8fe80.json",
+    "definitionName": "Subaru Subaru Forester XT A2WC400H",
+    "paramCount": 156,
+    "autoDetect": true,
+    "note": "Stock RomRaider calibration. EPK auto-detect @ 0x2000 (RomRaider row-major maps)."
+  },
+  {
+    "id": "subaru-a2ug001g",
+    "name": "Subaru Liberty/Legacy GT \u2014 A2UG001G, stock",
+    "brand": "Subaru",
+    "engine": "EJ255",
+    "dme": "SH7058",
+    "dmeId": "A2UG001G",
+    "bin": "subaru-a2ug001g-stock.bin",
+    "size": 1048576,
+    "bigEndian": false,
+    "definitionFile": "16023e16ba4ed6.json",
+    "definitionName": "Subaru Subaru Liberty GT A2UG001G",
+    "paramCount": 181,
+    "autoDetect": true,
+    "note": "Stock RomRaider calibration. EPK auto-detect @ 0x2000 (RomRaider row-major maps)."
   }
 ]
