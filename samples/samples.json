@@ -228,5 +228,37 @@
     "definitionName": "VAG Audi_A4_B6_1.8T_ME7.5 8E0909518AK",
     "paramCount": 345,
     "autoDetect": true
+  },
+  {
+    "id": "audi-s4-b5-27t-8d0907551m",
+    "name": "Audi S4 B5 2.7T biturbo \u2014 8D0907551M, stock ORI",
+    "brand": "VAG",
+    "engine": "2.7L V6 biturbo (AGB/AZB)",
+    "dme": "Bosch ME7.1",
+    "dmeId": "8D0907551M",
+    "bin": "audi-s4-b5-27t-8d0907551m-stock.bin",
+    "size": 1048576,
+    "bigEndian": false,
+    "definitionFile": "8145afffa29aa7.json",
+    "definitionName": "VAG Audi_S4_B5_ME7.1 8D0907551M-20190711",
+    "paramCount": 137,
+    "autoDetect": true,
+    "note": "Genuine ME7.1 stock read, the iconic S4/RS4 2.7 biturbo. EPK auto-detect. KFMIRL/LDRXN torque->load, KFLDRL boost, KRKTE injectors."
+  },
+  {
+    "id": "vag-20tfsi-med9",
+    "name": "VW/Audi 2.0 TFSI \u2014 MED9.1, stock ORI",
+    "brand": "VAG",
+    "engine": "2.0L TFSI FSI (BWA/BPY, K03/K04)",
+    "dme": "Bosch MED9.1",
+    "dmeId": "MED9.1",
+    "bin": "vag-20tfsi-med9-stock.bin",
+    "size": 2097152,
+    "bigEndian": true,
+    "definitionFile": "eddafb478d8f5e.json",
+    "definitionName": "VAG MED9.1_2.0TFSI MED9_stock",
+    "paramCount": 81,
+    "autoDetect": false,
+    "note": "Direct-injection MED9 (Golf5 GTI / A3 8P era). No EPK -> pick 'VAG MED9.1_2.0TFSI' manually. Specified-load KFMIRL + compressor pressure-ratio limit."
   }
 ]
