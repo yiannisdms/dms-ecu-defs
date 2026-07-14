@@ -196,5 +196,37 @@
     "definitionName": "Subaru Subaru Tribeca DZ1G001F",
     "autoDetect": true,
     "note": "Stock RomRaider calibration DZ1G001F. EPK auto-detect."
+  },
+  {
+    "id": "audi-a4-18t-8e0909518ak-stock",
+    "name": "Audi A4 B6 1.8T \u2014 8E0909518AK, stock ORI",
+    "bin": "audi-a4-18t-8e0909518ak-stock.bin",
+    "size": 1048576,
+    "note": "Genuine Bosch ME7.5 stock read (Audi A4 1.8T 20V turbo). EPK auto-detect. Load KFLDRL/KFLDIMX (boost) and MLHFM (MAF) to explore.",
+    "brand": "VAG",
+    "engine": "1.8L 20VT (AMB)",
+    "dme": "Bosch ME7.5",
+    "dmeId": "8E0909518AK",
+    "bigEndian": false,
+    "definitionFile": "f92dd6a83ee95b.json",
+    "definitionName": "VAG Audi_A4_B6_1.8T_ME7.5 8E0909518AK",
+    "paramCount": 345,
+    "autoDetect": true
+  },
+  {
+    "id": "audi-a4-18t-8e0909518ak-tuned",
+    "name": "Audi A4 B6 1.8T \u2014 8E0909518AK, Race Mode (tuned)",
+    "bin": "audi-a4-18t-8e0909518ak-tuned.bin",
+    "size": 1048576,
+    "note": "Same ECU, a real Stage tune (MLHFM/KFMIOP/KFLDRL changed vs stock). Load this then flip ORI\u2192MOD to see the tune, or diff against the stock sample.",
+    "brand": "VAG",
+    "engine": "1.8L 20VT (AMB)",
+    "dme": "Bosch ME7.5",
+    "dmeId": "8E0909518AK",
+    "bigEndian": false,
+    "definitionFile": "f92dd6a83ee95b.json",
+    "definitionName": "VAG Audi_A4_B6_1.8T_ME7.5 8E0909518AK",
+    "paramCount": 345,
+    "autoDetect": true
   }
 ]
