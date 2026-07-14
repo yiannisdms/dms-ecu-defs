@@ -260,5 +260,37 @@
     "paramCount": 81,
     "autoDetect": false,
     "note": "Direct-injection MED9 (Golf5 GTI / A3 8P era). No EPK -> pick 'VAG MED9.1_2.0TFSI' manually. Specified-load KFMIRL + compressor pressure-ratio limit."
+  },
+  {
+    "id": "bmw-n54-i8a0s-stock",
+    "name": "BMW N54 (335i / 135i) \u2014 I8A0S, stock ORI",
+    "dmeId": "I8A0S",
+    "bin": "bmw-n54-i8a0s-stock.bin",
+    "size": 2097152,
+    "note": "Genuine MSD80 stock read. EPK auto-detect. Boost Ceiling / Timing (Main) / Fuel (Main) validated. Load the mapswitch sample + diff to see a real modified file.",
+    "brand": "BMW",
+    "engine": "N54B30 biturbo",
+    "dme": "MSD80",
+    "bigEndian": false,
+    "definitionFile": "199bbbee103ffb.json",
+    "definitionName": "BMW N54 N54__I8A0S",
+    "paramCount": 510,
+    "autoDetect": true
+  },
+  {
+    "id": "bmw-n54-i8a0s-mapswitch",
+    "name": "BMW N54 (335i / 135i) \u2014 I8A0S, map-switch base (modified)",
+    "dmeId": "I8A0S",
+    "bin": "bmw-n54-i8a0s-mapswitch.bin",
+    "size": 2097152,
+    "note": "Same DME, a map-switch-enabled modified file (2.14% of bytes changed vs stock). Load this then flip diff vs stock, or compare against the stock sample.",
+    "brand": "BMW",
+    "engine": "N54B30 biturbo",
+    "dme": "MSD80",
+    "bigEndian": false,
+    "definitionFile": "199bbbee103ffb.json",
+    "definitionName": "BMW N54 N54__I8A0S",
+    "paramCount": 510,
+    "autoDetect": true
   }
 ]
